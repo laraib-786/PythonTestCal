@@ -6,7 +6,7 @@ pipeline {
                 echo 'hello world' 
             }
         }
-        stage('Unit Test){
+        stage('Unit Test'){
             steps{
                 sh test.py
             }
